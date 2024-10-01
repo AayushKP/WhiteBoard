@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.whiteboard {
+  width: 100vw;
+  height: 90vh;
+  background-color: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.text-box {
+  position: absolute;
+  font-size: 16px;
+  color: #000;
+  cursor: move;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
